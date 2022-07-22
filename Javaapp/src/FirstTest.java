@@ -4,13 +4,13 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.net.URL;
 
 public class FirstTest {
     private AppiumDriver driver;
     @Before
-    public void setUp() throws Exception {
+    public void setUp() throws Exception
+    {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability("platformName", "Android");
